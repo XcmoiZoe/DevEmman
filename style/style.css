@@ -1,6 +1,11 @@
 html,body{
     box-sizing: border-box;
     background-color: aquamarine;
+    
+}
+html *
+{
+    font-family: 'Poppins', sans-serif !important;
 }
 .head-text
 {
@@ -42,4 +47,17 @@ html,body{
 .hero
 {
     padding-top: 50px;
+}
+.section-head
+{
+    text-align: center;   
+}
+.section-two-head
+{
+    font-weight: 500;
+    font-size: 40px;
+}
+.spacer
+{
+    height: 40px;
 }
