@@ -1,9 +1,45 @@
-body{
+html,body{
     box-sizing: border-box;
     background-color: aquamarine;
 }
 .head-text
 {
     font-family: 'Poppins', sans-serif;
-    font-size: 65px;
+    font-size: 75px;
+    font-weight: 700;
+}
+.head-desc
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.section-1
+{
+    margin-top: 50px;
+}
+.cta-section-one
+{
+    margin-top: 30px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+}
+.cta-section-one:hover
+{
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50px;
+    background: #000000;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #555555;
+    color:#fff;
+}
+.img-hero
+{
+    padding-top: 40px;
 }
