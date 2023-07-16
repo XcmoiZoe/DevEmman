@@ -1,6 +1,6 @@
-html,body{
+body{
     box-sizing: border-box;
-    background-color: aquamarine;
+    background: #7fffd4;
     
 }
 html *
@@ -66,4 +66,8 @@ html *
     text-align: center;
     font-weight: 800;
     font-size: 40px;
+}
+.col-8
+{
+    background: #000000;
 }
