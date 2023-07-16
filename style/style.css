@@ -61,3 +61,9 @@ html *
 {
     height: 40px;
 }
+.section-three-head
+{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
