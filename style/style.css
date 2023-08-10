@@ -67,4 +67,22 @@ html *
     font-weight: 800;
     font-size: 40px;
 }
-
+.logo-client
+{
+    margin-bottom: 20px;
+}
+.img-l 
+{
+    padding: 50px;
+    text-align: center;
+}
+.img-l img
+{
+    width: 70%;
+}
+.c-footer
+{
+    background-color: #000000;
+    text-align: center;
+    color: #fff;
+}
