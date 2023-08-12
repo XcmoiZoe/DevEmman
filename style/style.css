@@ -1,88 +1,68 @@
-body{
-    box-sizing: border-box;
-    background: #7fffd4;
-    
+html,body{
+    background-color: #28292F !important;
+    color: #f4f4f4 !important;
 }
-html *
-{
-    font-family: 'Poppins', sans-serif !important;
+h1,
+h2 {
+    font-family: 'Lilita One', cursive;
 }
-.head-text
-{
-    font-family: 'Poppins', sans-serif;
-    font-size: 75px;
-    font-weight: 700;
+h1{
+    font-size: 70px !important;
+    color: aliceblue !important;
 }
-.head-desc
-{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+
+span {
+    color: rgb(248, 140, 45);
 }
-.section-1
-{
-    margin-top: 50px;
+
+p {
+    font-family: 'Raleway', sans-serif;
 }
-.cta-section-one
-{
-    margin-top: 30px;
-    padding: 20px 30px;
-    font-size: 25px;
-    border: none;
-    border-radius: 50px;
-    background: #ffffff;
-    box-shadow:  20px 20px 60px #bebebe,
-                 -20px -20px 60px #ffffff;
+.t1{
+    font-size: 50px;
 }
-.cta-section-one:hover
-{
-    padding: 20px 30px;
-    font-size: 25px;
-    border: none;
-    border-radius: 50px;
-    background: #000000;
-    box-shadow:  20px 20px 60px #bebebe,
-                 -20px -20px 60px #555555;
-    color:#fff;
+a {
+    font-family: 'Lilita One', cursive;
 }
-.hero
-{
-    padding-top: 50px;
+
+button {
+    padding: 10px 15px;
+    border:none;
+    border-radius: 20% !important;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #6c6c6c,
+                 -20px -20px 60px #bdbdbd;
+    font-family: 'Lilita One', cursive !important; 
+    font-size: larger !important;       
 }
-.section-head
-{
-    text-align: center;   
+button:hover{
+    color: aliceblue;
+    background: linear-gradient(145deg, #000000, #f0f0f0);
 }
-.section-two-head
-{
-    font-weight: 500;
-    font-size: 40px;
+.col2-main{
+    text-align: left;
+    padding: 100px 10px;
 }
-.spacer
-{
-    height: 40px;
+
+
+.spacer{
+    height: 150px;
 }
-.section-three-head
-{
-    text-align: center;
-    font-weight: 800;
-    font-size: 40px;
-}
-.logo-client
-{
-    margin-bottom: 20px;
-}
-.img-l 
-{
-    padding: 50px;
+.s-section{
     text-align: center;
 }
-.img-l img
-{
-    width: 70%;
+.serv{
+    font-size: 70px;
+   
 }
-.c-footer
-{
-    background-color: #000000;
-    text-align: center;
-    color: #fff;
-}
+
+@media (max-width: 320px) {
+    .col2-main{
+        text-align: left;
+        padding: 0px;
+    }
+    .serv{
+        font-size: 40px;
+       
+    }
+  }
